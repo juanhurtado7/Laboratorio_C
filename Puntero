@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int a = 5;
+    int *ptr = &a;
+    
+    printf("Valor de a: %d\n", a);
+    printf("Direccion de a: %p\n", &a);
+    printf("Valor almacenado en ptr: %p\n", ptr);
+    printf("Valor apuntado por ptr: %d\n", *ptr);
+
+    return 0;
+}
